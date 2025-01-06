@@ -746,6 +746,7 @@ footer {
 
 .page-footer {
   padding: 96px 0;
+  justify-content: flex-start;
 }
 
 @media screen and (min-width: 1158px) {
@@ -772,6 +773,13 @@ footer {
     gap: 24px;
     text-align: left;
     justify-content: center;
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 1157px) {
+  .footer-container {
+    width: 584px;
   }
 }
 
